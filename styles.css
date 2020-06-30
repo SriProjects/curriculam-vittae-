@@ -2,6 +2,7 @@ body {
     margin: 0;
     
     font-family: 'Neuton', serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -35,6 +36,7 @@ h2 {
 }
 
 
+
  .navbar-light{
     background-color: #ffcccc;
 }
@@ -43,7 +45,9 @@ h2 {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #ffcccc ;
+    
 }
+
 
 
 .w-100{
@@ -51,6 +55,72 @@ h2 {
     padding-left: 20%;
 }
 
+
+
 #Masterpiece {
+    
+    padding-bottom: 60px;
+}
+
+#Masterpiece{
+    height:400px;
+    position: relative;
+}
+
+#Masterpiece .col-sm-6 {
+    position: absolute;
+    left: 25%;
+}
+
+#Masterpiece .card {
+    text-align: center;
+}
+
+#skills {
+    height: auto;
+    padding: 5% 5%;
+    text-align: center;
     background-color: #ffcccc;
+
+    
+}
+
+.fa-star{
+    color: #FC427B;
+}
+
+.fa-star-half-alt{
+    color: #FC427B;
+}
+
+.bttn {
+    background-color: #ffcccc;
+    
+}
+
+.bttn:hover {
+    background-color: #FC427B;
+}
+
+
+#Passion ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#contact {
+    background-color: #ffcccc;
+    height: 200px;
+}
+
+#contact .col-sm-6 {
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   font-size: 30px;
+}
+
+.copyright {
+    text-align: center;
 }
